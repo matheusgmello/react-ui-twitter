@@ -5,6 +5,7 @@ import './global.css'
 import { Tweet } from './components/Tweet'
 import { Sidebar } from './components/Sidebar'
 import { Header } from './components/Header'
+import { Separtor } from './components/Separator'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -22,12 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
               <button type="submit">Tweet</button>
             </label>
           </form>
-
-
-          <div className="separator"/>
-
-          <Tweet/>
-          <Tweet/>
+          <Separtor/>
           <Tweet/>
           <Tweet/>
         </main>
