@@ -1,5 +1,7 @@
-export function Separtor(){
-  return(
-    <div className="separator"/>
+import './Separator.css'
+
+export function Separator() {
+  return (
+    <div className="separator" />
   )
 }
